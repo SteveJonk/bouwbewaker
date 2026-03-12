@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('assets/fonts/Roboto.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('assets/fonts/Roboto-italic.woff2') format('woff2');
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('assets/fonts/Mulish.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('assets/fonts/Mulish-italic.woff2') format('woff2');
+  font-style: italic;
+  font-display: swap;
+}
+
+$text-main: var(--wp--preset--font-family--body, 'Mulish'), sans-serif;
+$text-header: var(--wp--preset--font-family--header, 'Roboto'), sans-serif;
+
+$grey-100: #f8f4f1;
+$grey-200: #bfbfbf;
+$grey-300: #515151;
+
+$common-black: #0b0000;
+$primary-color: #bd1a29;
+$secondary-color: #f8f4f1;
+$success-color: #4b8b3b;
