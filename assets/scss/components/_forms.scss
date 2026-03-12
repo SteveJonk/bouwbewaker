@@ -207,20 +207,18 @@
     align-items: center;
     justify-content: center;
     padding: 0.875rem 2rem;
-    background-color: var(--wp--preset--color--primary, #333);
+    background-image: var(--wp--preset--gradient--brand-blue-gradient);
+    box-shadow: var(--wp--preset--shadow--button-soft);
     color: #fff;
     border: none;
     border-radius: 0px;
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
-    transition:
-      background-color 0.2s ease,
-      transform 0.1s ease;
+    transition: filter 0.2s ease;
 
     &:hover {
-      background-color: var(--wp--preset--color--primary, #222);
-      opacity: 0.9;
+      filter: brightness(1.1);
     }
 
     &:active {
