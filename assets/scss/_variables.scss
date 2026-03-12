@@ -22,14 +22,19 @@
   font-display: swap;
 }
 
-$text-main: var(--wp--preset--font-family--body, 'Mulish'), sans-serif;
-$text-header: var(--wp--preset--font-family--header, 'Roboto'), sans-serif;
+@font-face {
+  font-family: 'Inter';
+  src: url('assets/fonts/Inter.woff2') format('woff2');
+}
+
+$text-main: var(--wp--preset--font-family--body, 'Inter'), sans-serif;
+$text-header: var(--wp--preset--font-family--header, 'Inter'), sans-serif;
 
 $grey-100: #f8f4f1;
 $grey-200: #bfbfbf;
 $grey-300: #515151;
 
 $common-black: #0b0000;
-$primary-color: #bd1a29;
-$secondary-color: #f8f4f1;
+$primary-color: #0f3e80;
+$secondary-color: #dff2f5;
 $success-color: #4b8b3b;

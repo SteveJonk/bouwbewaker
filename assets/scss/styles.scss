@@ -11,10 +11,8 @@
 */
 
 @import 'tailwindcss/utilities';
-/*
- * uncomment if adding custom utilities
-@import "./custom-utilities.css";
-*/
+
+@import './custom-utilities';
 
 /* admin bar fix */
 body.admin-bar {
@@ -32,3 +30,4 @@ body.admin-bar {
 @import './components/buttons';
 @import './components/container';
 @import './components/navbar';
+@import './components/forms';

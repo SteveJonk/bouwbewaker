@@ -1,0 +1,43 @@
+<!-- Contact Form 7 - Offerte aanvraag -->
+<!-- Copy this shortcode content into Contact Form 7 editor -->
+
+<div class="form-group">
+    <label for="naam">Naam <span class="required">*</span></label>
+    [text* naam id:naam]
+</div>
+
+<div class="form-group">
+    <label for="email">E-mail <span class="required">*</span></label>
+    [email* email id:email]
+</div>
+
+<div class="form-group">
+    <label for="telefoon">Telefoon <span class="required">*</span></label>
+    [tel telefoon id:telefoon]
+</div>
+
+<div class="form-group">
+    <label for="bericht">Bericht</label>
+    [textarea omschrijving id:bericht]
+</div>
+
+<div class="form-group form-submit">
+    [submit class:btn class:btn-primary "Verzend"]
+</div>
+
+<!-- 
+Mail template - use these tags in the CF7 Mail tab:
+
+From: [naam] <[email]>
+Subject: Nieuwe offerte aanvraag van [naam]
+
+Naam: [naam]
+E-mail: [email]
+Telefoon: [telefoon]
+
+Bericht:
+[bericht]
+
+---
+Dit bericht is verzonden via het offerte formulier op de website.
+-->

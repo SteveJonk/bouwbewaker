@@ -1,5 +1,6 @@
 .header {
   background-color: white;
+  border-bottom: 1px solid var(--wp--preset--color--light-border);
   position: sticky;
   top: 0;
   width: 100%;
@@ -47,15 +48,14 @@
           }
           &.alt {
             & > a {
-              background-color: var(--wp--preset--color--primary);
-              border: 1px solid var(--wp--preset--color--primary);
+              background-image: var(--wp--preset--gradient--brand-blue-gradient);
+              box-shadow: var(--wp--preset--shadow--button-soft);
               padding: 10px;
               border-radius: 4px;
               color: white;
               transition: all 0.3s;
               &:hover {
-                background-color: white;
-                color: var(--wp--preset--color--primary);
+                filter: brightness(1.1);
               }
             }
           }

@@ -1,19 +1,11 @@
 body {
-  font-family: $text-main;
+  background-color: var(--wp--preset--color--background);
   font-size: 16px;
 }
 
 p {
   font-size: 16px;
   line-height: 1.4;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: $text-header;
 }
 
 h1 {
@@ -37,4 +29,10 @@ h4 {
 
 a {
   color: $common-black;
+}
+
+.is-style-gradient {
+  background-image: var(--wp--preset--gradient--brand-blue-gradient);
+  color: transparent;
+  background-clip: text;
 }
